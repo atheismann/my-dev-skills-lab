@@ -22,33 +22,30 @@ ul {
   text-align: left;
 }
 
-li::before {
-  content: "X";
+.removeSkill {
   color: white;
   background-color: #E06566;
   padding: 5px;
   margin: 0 10px 0 0;
+  border: none;
 }
 
 li {
   list-style: none;
   padding: 5px 5px 5px 0;
   color: #ff9b06;
-  margin: 10px 0;
-  
+  margin: 10px 0;  
 }
 
 #newSkill {
   width: 73%;
   background-color: white;
-  color : #93c47d;
   border: 3px solid #93c47d;
-  text-transform: uppercase;
   font-size: 22px;
   padding: 0 0 5px 0;
 }
 
-button {
+#addSkill {
   width: 25%;
   background-color: white;
   color : #93c47d;
@@ -57,11 +54,9 @@ button {
   padding: 8px;
 }
 
-div {
+.wrapper {
   width: 400px;
   display: flex;
   flex-direction: column;
   column-width: 400px;
-
-
 }
