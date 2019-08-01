@@ -3,8 +3,8 @@ $('#addSkill').on('click', function(evt) {
   ))
 });
 
-$('button.removeSkill').on('click', function() {
-  $(this).closest('li').fadeOut(1000, function(){
+$('ul').on('click', 'button', function() {
+  $(this).closest('li').fadeOut(250, function(){
     $(this).remove();
   });
 });
